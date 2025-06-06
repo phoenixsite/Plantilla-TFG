@@ -22,9 +22,9 @@
 
 % Añadir tantos tutores como sea necesario separando cada uno de ellos mediante el comando `\medskip` y una línea en blanco
 \newcommand{\miTutor}{
-  Nombre del tutor 1 \\ \emph{Departamento del tutor 1} 
+  Nombre del tutor 1 \\ \emph{Departamento del tutor 1}
 
-  % Añadir tantos tutores como sea necesario. 
+  % Añadir tantos tutores como sea necesario.
 
   \medskip
   Nombre del tutor 2 \\ \emph{Departamento del tutor 2}
@@ -32,8 +32,8 @@
 \newcommand{\miCurso}{2023-2024\xspace}
 
 \hypersetup{
-	pdftitle={\miTitulo},
-	pdfauthor={\textcopyright\ \miNombre, \miFacultad, \miUniversidad}
+  pdftitle={\miTitulo},
+  pdfauthor={\textcopyright\ \miNombre, \miFacultad, \miUniversidad}
 }
 
 \begin{document}
@@ -45,15 +45,14 @@
 % -------------------------------------------------------------------
 \frontmatter % Desactiva la numeración de capítulos y usa numeración romana para las páginas
 
-\input{preliminares/declaracion-originalidad}   
+\input{preliminares/declaracion-originalidad}
 \input{preliminares/dedicatoria}                % Opcional
 \input{preliminares/agradecimientos}            % Opcional
 
-\input{preliminares/summary}                    
+\input{preliminares/summary}
 
-\input{preliminares/tablacontenidos}            
-\input{preliminares/introduccion}               
-
+\input{preliminares/tablacontenidos}
+\input{preliminares/introduccion}
 
 % -------------------------------------------------------------------
 % MAINMATTER
@@ -68,7 +67,8 @@
 
 % Añadir tantos capítulos como sea necesario
 
-\cleardoublepage\part{Segunda parte}
+\cleardoublepage
+\part{Segunda parte}
 \input{capitulos/capitulo-ejemplo}
 
 % -------------------------------------------------------------------
@@ -79,13 +79,13 @@
 \pdfbookmark[-1]{Apéndices}{appendix} % Alternativamente podemos agrupar los apéndices con un nuevo \part{Apéndices}
 
 \input{apendices/apendice-ejemplo}
-% Añadir tantos apéndices como sea necesario 
+% Añadir tantos apéndices como sea necesario
 
 % -------------------------------------------------------------------
 % GLOSARIO: Opcional
 % -------------------------------------------------------------------
 
-\input{glosario} 
+\input{glosario}
 
 % -------------------------------------------------------------------
 % BACKMATTER
@@ -97,10 +97,10 @@
 % BIBLIOGRAFÍA
 %-------------------------------------------------------------------
 
-\bibliographystyle{alpha-es} 
-\begin{small} 
+\bibliographystyle{abbrv}
+% Otros estilos bibliográficos: alpha-es, amsalpha, plain
+\begin{small}
   \bibliography{library.bib}
 \end{small}
-
 
 \end{document}

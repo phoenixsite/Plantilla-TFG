@@ -68,7 +68,7 @@
   \theoremstyle{remark}
   \newtheorem{observacion}[teorema]{Observación}
 
-\RequirePackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=10,shrink=10]{microtype}
+% \RequirePackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=10,shrink=10]{microtype}
 
 % Las tipografías elegidas para el documento, siguiendo la guía de estilo de la UGR, son las siguientes
 % Normal font: 			URW Palladio typeface. 
